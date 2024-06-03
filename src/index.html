@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Finder</title>
-</head>
-<body>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
     <header>
-        <img src="/src/assets/logo.png" alt="Recipe Finder Logo">
-        <h1>Recipe Finder</h1>
+      <div class="logo logo">
+      <img src="/images/rainbow-logo.png" alt="rainbow-logo Logo" />
+      </div>
+      <h1>Recipe Finder</h1>
     </header>
     <main>
-        <section id="search">
-            <input type="text" id="search-input" placeholder="Search for recipes...">
-            <button id="search-button">Search</button>
-        </section>
-        <section id="filters">
-            <!-- Filters for cuisine type, dietary restrictions, etc. -->
-        </section>
-        <section id="results">
-            <!-- Search results will be dynamically inserted here -->
-        </section>
-        <section id="favorites">
-            <h2>Favorites</h2>
-            <!-- Favorite recipes will be displayed here -->
-        </section>
-        <section id="shopping-list">
-            <h2>Shopping List</h2>
-            <!-- Shopping list will be displayed here -->
-        </section>
+      <section id="search">
+        <input type="text" id="search-input" placeholder="Search for recipes..." />
+        <button id="search-button">Search</button>
+      </section>
+      <section id="filters">
+        <!-- Filters for cuisine type, dietary restrictions, etc. -->
+      </section>
+      <section id="results">
+        <!-- Search results will be dynamically inserted here -->
+      </section>
+      <section id="favorites">
+        <h2>Favorites</h2>
+        <!-- Favorite recipes will be displayed here -->
+      </section>
+      <section id="shopping-list">
+        <h2>Shopping List</h2>
+        <!-- Shopping list will be displayed here -->
+      </section>
     </main>
     <footer>
-        <p>&copy; 2024 Recipe Finder. All rights reserved.</p>
-    </footer>  
-</body>
+      <p>&copy; 2024 Recipe Finder. All rights reserved.</p>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+  </body>
 </html>
