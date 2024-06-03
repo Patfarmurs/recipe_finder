@@ -1,5 +1,5 @@
 import { debounce, generateUniqueId, getElement, formatRecipeData, isInArray } from './Utils.js';
-import { fetchRecipes } from './api.js';
+import { fetchRecipes } from './Api.js';
 import { displayRecipes, displayFavorites, displayShoppingList } from './Ui.js';
 import { saveFavorite, getFavorites, removeFavorite, addToShoppingList, getShoppingList } from './Storage.js';
 
